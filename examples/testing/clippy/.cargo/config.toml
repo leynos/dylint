@@ -1,5 +1,6 @@
 [build]
 target-dir = "../../../target/examples"
+rustflags = ["-Zembed-metadata=no"]
 
 [target.'cfg(all())']
 linker = "dylint-link"
